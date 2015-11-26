@@ -1,0 +1,11 @@
+---
+server:
+  port: 8080
+
+#account:
+#  ribbon:
+    # the eureka vipAddress of the target service
+#    DeploymentContextBasedVipAddresses: account
+#    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
+#    ReadTimeout: 5000
+#    MaxAutoRetries: 2

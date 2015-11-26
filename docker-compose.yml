@@ -16,3 +16,16 @@ config:
      EUREKA_PORT: 8761
   ports:
     - "8888:8888"
+
+account-server:
+  image: "account-service:1.0.0-SNAPSHOT"
+  hostname: account-service
+  name: account-service
+  links:
+    - eureka
+    - config
+  ports:
+   - "2222:2222"
+  environment:
+      EUREKA_HOST: eureka
+      EUREKA_PORT: 8761

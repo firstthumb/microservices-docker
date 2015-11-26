@@ -13,6 +13,8 @@
     <modules>
         <module>config</module>
         <module>eureka</module>
+        <module>account</module>
+        <module>leaderboard</module>
     </modules>
 
     <parent>
